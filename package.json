@@ -1,0 +1,19 @@
+{
+  "name": "serveur-websocketv2",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "SA Prod websocket server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Artaic",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "mariadb": "^3.0.0",
+    "moment": "^2.29.4",
+    "socket.io": "^4.5.0"
+  }
+}
